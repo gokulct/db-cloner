@@ -42,7 +42,6 @@ The Database Copy Utility is a Java application designed to efficiently copy a l
    - Click the "Start Copying" button to initiate the data copy process.
 
 ## Screenshots
-
 ![Screenshot 1](Screenshots/s1.png)
 *Landing Page*
 ![Screenshot 2](Screenshots/s2.png)
