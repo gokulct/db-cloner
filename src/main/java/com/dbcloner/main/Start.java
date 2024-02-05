@@ -30,60 +30,6 @@ public class Start extends Application {
                 e.printStackTrace();
             }
             launch();
-            /*String url = "jdbc:postgresql://10.0.0.56:5432/numr?";
-            String urlOracle = "jdbc:oracle:thin:@//10.0.0.40:1521/lflifedb";*/
-/*
-            Properties props = new Properties();
-            props.setProperty("user", "numrlfuser");
-            props.setProperty("password", "L$FnuMrP0d");
-
-            Properties propsOracle = new Properties();
-            propsOracle.setProperty("user", "LFLIVE_BKP_13JAN");
-            propsOracle.setProperty("password", "LFLIVE_BKP_13JAN");
-
-            //props.setProperty("ssl", "true");
-            Connection conn = DriverManager.getConnection(url, props);
-            Connection connOracle = DriverManager.getConnection(urlOracle, propsOracle);
-
-            Statement statement = conn.createStatement();
-            ResultSet result = statement.executeQuery("select * from room_types");
-            ResultSetMetaData metaData = result.getMetaData();
-
-            System.out.println("Postgress DB");
-            int cols = metaData.getColumnCount();
-            int rows=0;
-            while (result.next()) {
-                for(int i=1 ; i<cols ; i++) {
-                    try {
-                        System.out.print(result.getString(i) + " | ");
-                    }catch (Exception e){
-                        break;
-                    }
-                }
-                System.out.println("");
-                rows++;
-            }
-            System.out.println("Total Number Of Rows : "+rows);
-
-            System.out.println("Oracle DB");
-
-            Statement statementOracle = connOracle.createStatement();
-            ResultSet resultOracle = statementOracle.executeQuery("select * from equipment");
-            ResultSetMetaData metaDataOrcl = resultOracle.getMetaData();
-            int colsOrcl = metaData.getColumnCount();
-            int rowsOrcl=0;
-            while (resultOracle.next()) {
-                for(int i=1 ; i<colsOrcl ; i++) {
-                    try {
-                        System.out.print(resultOracle.getString(i) + " | ");
-                    }catch (Exception e){
-                        break;
-                    }
-                }
-                System.out.println("");
-                rowsOrcl++;
-            }
-            System.out.println("Total Number Of Rows : "+rowsOrcl);*/
         }catch (Exception e){
             e.printStackTrace();
         }
