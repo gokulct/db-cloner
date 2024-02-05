@@ -13,6 +13,7 @@ The Database Copy Utility is a Java application designed to efficiently copy a l
 - Column mapping: Map source columns to target columns, providing flexibility in copying only the necessary data.
 - CLOB support: Handle CLOB (Character Large Object) data types during the copying process.
 - User-friendly interface: Intuitive GUI for easy configuration and execution of data copy operations.
+- The pom.xml file is configure to create a .exe file using the Launch4j plugin (run the command 'mvn clean package' to build the project, This will create the .exe file in the target folder.)
 
 ## Requirements
 
