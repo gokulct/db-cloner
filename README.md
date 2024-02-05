@@ -56,7 +56,7 @@ The Database Copy Utility is a Java application designed to efficiently copy a l
 
 ## Note
 
-Currently configure to work with Oracle Database as destination database.
+Currently configured to work with Oracle SQL Database as destination database.
 But you can easily change a few lines here and there to make it work with any database that provides a JDBC driver.
 
 ## Contributing
