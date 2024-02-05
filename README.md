@@ -7,10 +7,10 @@
 The Database Copy Utility is a Java application designed to efficiently copy a large amount of data across SQL databases, supporting various database types such as MySQL, Oracle SQL, and PostgreSQL. The utility allows users to connect source and destination databases, select target tables, define custom queries, and copy data seamlessly.
 ## Screenshots
 
-(Screenshots/s1.png)
-(Screenshots/s2.png)
-(Screenshots/s3.png)
-(Screenshots/s4.png)
+![Screenshot 1](Screenshots/s1.png)
+![Screenshot 2](Screenshots/s2.png)
+![Screenshot 3](Screenshots/s3.png)
+![Screenshot 4](Screenshots/s4.png)
 
 ## Features
 
