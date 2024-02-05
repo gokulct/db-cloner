@@ -44,16 +44,16 @@ The Database Copy Utility is a Java application designed to efficiently copy a l
 
 ## Screenshots
 ![Screenshot 1](Screenshots/s1.png)
-*Landing Page*
+*1.Landing Page*
 
 ![Screenshot 2](Screenshots/s2.png)
-*Connections*
+*2.Connections*
 
 ![Screenshot 3](Screenshots/s3.png)
-*Add Query*
+*3.Add Query*
 
 ![Screenshot 4](Screenshots/s4.png)
-*Column Mapping*
+*4.Column Mapping*
 
 ## Note
 
