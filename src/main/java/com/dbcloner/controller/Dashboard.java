@@ -337,6 +337,8 @@ public class Dashboard extends IController {
                 startCopyBtn.setDisable(false);
                 addQueryBtn.setDisable(false);
                 refreshBtn.setDisable(false);
+                resultDetail=null;
+                System.gc();
             });
         }catch (Exception e){
             e.printStackTrace();
