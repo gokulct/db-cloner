@@ -296,19 +296,19 @@ public class Dashboard extends IController {
             if(copySuccess){
                 System.out.println("Process Ended at "+sdf.format(new Date()));
                 status.setText("Process Complete. Started on "+startTime+" and ended on "+sdf.format(new Date()));
-                Platform.runLater(()->{
-                    sourceConnectBtn.setDisable(false);
-                    destinationConnectBtn.setDisable(false);
-                    previousSourcesBtn.setDisable(false);
-                    previousDestinationBtn.setDisable(false);
-                    startCopyBtn.setDisable(false);
-                    addQueryBtn.setDisable(false);
-                    refreshBtn.setDisable(false);
-                });
                 showAlertPopup(INFORMATION,"Process Complete. Started on "+startTime+" and ended on "+sdf.format(new Date()));
             }else {
                 showAlertPopup(ERROR,"Process Failed To Complete.");
             }
+            Platform.runLater(()->{
+                sourceConnectBtn.setDisable(false);
+                destinationConnectBtn.setDisable(false);
+                previousSourcesBtn.setDisable(false);
+                previousDestinationBtn.setDisable(false);
+                startCopyBtn.setDisable(false);
+                addQueryBtn.setDisable(false);
+                refreshBtn.setDisable(false);
+            });
             hideLoader();
         });
         executorService.shutdown();
