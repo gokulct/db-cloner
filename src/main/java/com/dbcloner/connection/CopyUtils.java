@@ -29,7 +29,7 @@ public class CopyUtils {
                     query+=","+s.getTargetColumn().toUpperCase();
                     params+=",?";
                 }
-                int colIndex = findColumnIndex(resultDetail, s.getTargetColumn());
+                int colIndex = findColumnIndex(resultDetail, s.getSourceColumn());
                 colIndices.add(colIndex);
             }
             query+=") VALUES ("+params+")";
