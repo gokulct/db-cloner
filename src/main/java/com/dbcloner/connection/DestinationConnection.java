@@ -73,8 +73,8 @@ public class DestinationConnection {
         List<String> columns=new ArrayList<String>();
         List<String> clobColumns = new ArrayList<String>();
         while (resultSet.next()){
-            Object[] obj = new Object[cols];
-            for(int i=1;i<cols;i++){
+            Object[] obj = new Object[cols+1];
+            for(int i=1;i<=cols;i++){
                 obj[i]=resultSet.getString(i);
                 if(!columnNamesCollected) {
                     columns.add(data.getColumnName(i));
